@@ -1,14 +1,20 @@
-﻿<%@ Page Title="Products" Language="C#" MasterPageFile="~/FrontEnd.Master" AutoEventWireup="true" CodeBehind="Products.aspx.cs" Inherits="COMP2007_S2016_assignment1.Products" %>
+﻿<!-- 
+    @author : Jasim Khan
+    id : 200263011
+    comp2007-s2016 section A
+    
+    -->
+<%@ Page Title="Products" Language="C#" MasterPageFile="~/FrontEnd.Master" AutoEventWireup="true" CodeBehind="Products.aspx.cs" Inherits="COMP2007_S2016_assignment1.Products" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div class="left">
         <img src="Asset/projects.jpg" />
-    </div>
+    </div><!--end of left-->
    
     <div class="projects">
         <div  class="col-md-offset-4 col-md-2">
         <table>
-            <thead  >
+            <thead >
                
                 <tr>
                     <td>
@@ -37,7 +43,7 @@
                
             </thead>
         </table>
-        </div> 
-        </div>
+        </div><!--end of col-md-offset-4 col-md-2 -->
+        </div><!--end of projects-->
 
 </asp:Content>

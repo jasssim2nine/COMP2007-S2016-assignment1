@@ -1,4 +1,11 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Footer.ascx.cs" Inherits="COMP2007_S2016_assignment1.User_Contol.Footer" %>
+﻿<!-- 
+    @author : Jasim Khan
+    id : 200263011
+    comp2007-s2016 section A
+    
+    -->
+
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Footer.ascx.cs" Inherits="COMP2007_S2016_assignment1.User_Contol.Footer" %>
 
 <nav class="navbar navbar-fixed-bottom">
   <footer class="footer-distributed">

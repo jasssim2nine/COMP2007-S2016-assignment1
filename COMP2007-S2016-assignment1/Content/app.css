@@ -6,13 +6,14 @@
     height:40px;
     clear:both;
 }
-
+ /* css for class left*/
  .left{
      float:left;
 width:10%;
 height:13%;
 
 }
+ /* css for class left*/
 .right{
    float:right;
     margin-right:16%;
@@ -21,12 +22,13 @@ height:13%;
     height:14%;
     clear:both;
 }
-
+/* css for table in products page*/
     td img{
         
         width:250px;
         height:250px;
     }
+    /*footer css*/
 .footer-distributed{
 	background-color: #292c2f;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -38,7 +40,7 @@ height:13%;
 	padding: 20px 20px;
 	margin-top: 30px;
 }
-
+/*css for footer coor and font*/
 .footer-distributed .footer-left p{
 	color:  #8f9296;
 	font-size: 14px;
@@ -55,20 +57,20 @@ height:13%;
 	margin: 0 0 10px;
 	padding: 0;
 }
-
+/*p tag in footer*/
 .footer-distributed p.footer-links a{
 	display:inline-block;
 	line-height: 1.0;
 	text-decoration: none;
 	color:  inherit;
 }
-
+/*right links in footer*/
 .footer-distributed .footer-right{
 	float: right;
 	margin-top:-4%;
 	max-width: 180px;
 }
-
+/*anchors in right links of footer*/
 .footer-distributed .footer-right a{
 	display: inline-block;
 	width: 35px;

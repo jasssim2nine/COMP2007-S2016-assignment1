@@ -1,4 +1,10 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="FrontEnd.master.cs" Inherits="COMP2007_S2016_assignment1.FrontEnd" %>
+﻿<!-- 
+    @author : Jasim Khan
+    id : 200263011
+    comp2007-s2016 section A
+    
+    -->
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="FrontEnd.master.cs" Inherits="COMP2007_S2016_assignment1.FrontEnd" %>
 
 <%@ Register Src="~/User_Contol/Navbar.ascx" TagPrefix="bs29" TagName="Navbar" %>
 <%@ Register Src="~/User_Contol/Footer.ascx" TagPrefix="bs29" TagName="Footer" %>
@@ -26,9 +32,9 @@
         <asp:ContentPlaceHolder ID="MainContent" runat="server">
         
         </asp:ContentPlaceHolder>
-    </div>
+    </div><!-- end of div -->
         <bs29:Footer runat="server" />
-    </form>
+    </form><!-- end of form-->
     <!--Javascript Section -->
     <script src="Scripts/jquery-2.2.3.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>

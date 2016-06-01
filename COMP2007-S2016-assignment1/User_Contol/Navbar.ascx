@@ -1,4 +1,12 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Navbar.ascx.cs" Inherits="COMP2007_S2016_assignment1.User_Contol.Navbar" %>
+﻿<!-- 
+    @author : Jasim Khan
+    id : 200263011
+    comp2007-s2016 section A
+    
+    -->
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Navbar.ascx.cs" Inherits="COMP2007_S2016_assignment1.User_Contol.Navbar" %>
+
+
 <nav class="navbar navbar-inverse" role="navigation">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
