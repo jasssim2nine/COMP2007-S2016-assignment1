@@ -1,9 +1,4 @@
-﻿<!-- 
-    @author : Jasim Khan
-    id : 200263011
-    comp2007-s2016 section A
-    
-    -->
+﻿
 <%@ Page Title="Contact" Language="C#" MasterPageFile="~/Contact.Master" AutoEventWireup="true" CodeBehind="Contact_Us.aspx.cs" Inherits="COMP2007_S2016_assignment1.Contact1" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
