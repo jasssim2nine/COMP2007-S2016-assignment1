@@ -1,7 +1,7 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Contact.master.cs" Inherits="COMP2007_S2016_assignment1.Contact" %>
 
 <%@ Register Src="~/User_Contol/Navbar.ascx" TagPrefix="bs29" TagName="Navbar" %>
-
+<%@ Register Src="~/User_Contol/Footer.ascx" TagPrefix="bs29" TagName="Footer" %>
 <!DOCTYPE html>
 
 <html lang="en">
@@ -26,6 +26,7 @@
         
         </asp:ContentPlaceHolder>
     </div>
+        <bs29:Footer runat="server" />
     </form>
     <!--Javascript Section -->
     <script src="Scripts/jquery-2.2.3.min.js"></script>
