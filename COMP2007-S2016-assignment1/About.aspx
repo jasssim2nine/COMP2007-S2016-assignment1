@@ -1,7 +1,19 @@
 ﻿<%@ Page Title="About" Language="C#" MasterPageFile="~/FrontEnd.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="COMP2007_S2016_assignment1.About" EnableViewState="False" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <div class="container">
-        <h1>About Page</h1>
+     <div class="right">
+         
+         <img src="Asset/know-me-2.jpg" />
+ </div>
+    <div class="left">
+        <img src="Asset/know-me.jpg" />
     </div>
+    <div class="col-md-offset-5 col-md-2">
+        <h2>Jasim Mehdi Ali Khan</h2>
+        <h4>
+            HIGHLY DEPENDABLE,PASSIONATE LEARNER IN WEB AND AS WELL IN DATABASE.SELF-MOTIVATED AND FOCUS
+        CROSS-FUNCTIONAL COMPUTER PROGRAMMING SKILLS.DEDICATED AND VERY CREATIVE IN CONTRIBUTING NEW WEB-DESIGNING IDEAS.
+        </h4>
+    </div>
+       
 </asp:Content>

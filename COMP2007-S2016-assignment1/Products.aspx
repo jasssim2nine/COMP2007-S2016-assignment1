@@ -1,11 +1,12 @@
 ﻿<%@ Page Title="Products" Language="C#" MasterPageFile="~/FrontEnd.Master" AutoEventWireup="true" CodeBehind="Products.aspx.cs" Inherits="COMP2007_S2016_assignment1.Products" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <div class="container">
-        <h1>Products Page</h1>
+    <div class="left">
+        <img src="Asset/projects.jpg" />
     </div>
+   
     <div class="projects">
-        <div class="col-md-offset-4 col-md-6">
+        <div  class="col-md-offset-4 col-md-2">
         <table>
             <thead  >
                
@@ -36,11 +37,7 @@
                
             </thead>
         </table>
+        </div> 
         </div>
-        
-        
-       
-    </div>
 
-    
 </asp:Content>

@@ -1,9 +1,10 @@
 ﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Contact.Master" AutoEventWireup="true" CodeBehind="Contact_Us.aspx.cs" Inherits="COMP2007_S2016_assignment1.Contact1" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+ 
     <div class="container">
         <div class="row">
-            <div class="col-md-offset-4 col-md-8">
+            <div class="col-md-offset-4 col-md-6">
                 <h1>Contact Us</h1>
             </div>
         </div>
@@ -22,10 +23,11 @@
                             (705) 555-5555
                         </address>
                     </div>
+                    
                 </div>
-
+                <img src="Asset/contact-me.jpg" />
             </div>
-            <div class="col-md-6">
+            <div class="col-md-5">
                 
                 <div class="form-group">
                     <label class="control-label" for="form-group-input">First Name</label>
@@ -48,8 +50,8 @@
         </div>
               
                  <div class="text-right">
-                    <a class="btn btn-warning btn-lg" id="CancelButton" href="Default.aspx">Cancel</a>
-                     <asp:Button runat="server" CssClass="btn btn-primary btn-lg" ID="SendButton" Text="Send" OnClick="SendButton_Click" />
+                    <a class="btn btn-warning btn-sm" id="CancelButton" href="Default.aspx">Cancel</a>
+                     <asp:Button runat="server" CssClass="btn btn-primary btn-group-sm" ID="SendButton" Text="Send" OnClick="SendButton_Click" />
                 </div>
 
             </div>
