@@ -66,8 +66,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Asset\about-me.png" />
     <Content Include="Asset\cork-wallet.png" />
+    <Content Include="Asset\georgiancollege.jpg" />
+    <Content Include="Asset\guardians-of-the-galaxy.jpg" />
     <Content Include="Asset\jay-logo.png" />
+    <Content Include="Asset\slot-machine.jpg" />
     <Content Include="Contact_Us.aspx" />
     <Content Include="packages.config" />
     <Content Include="FrontEnd.Master" />

@@ -7,15 +7,15 @@
 			<div class="footer-left">
 
 				<p class="footer-links">
-					<a href="#">Home</a>
+					<a href="Default.aspx">Home</a>
 					·
-					<a href="#">Products</a>
+					<a href="Products.aspx">Products</a>
 					·
-					<a href="#">Services</a>
+					<a href="Services.aspx">Services</a>
 					·
-					<a href="#">About</a>
+					<a href="About.aspx">About</a>
 					·				
-					<a href="#">Contact</a>
+					<a href="Contact_Us.aspx">Contact</a>
 				</p>
 
 				<p>Jasim Khan &copy; 2016</p>
