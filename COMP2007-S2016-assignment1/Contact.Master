@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="FrontEnd.master.cs" Inherits="COMP2007_S2016_assignment1.FrontEnd" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Contact.master.cs" Inherits="COMP2007_S2016_assignment1.Contact" %>
 
 <%@ Register Src="~/User_Contol/Navbar.ascx" TagPrefix="bs29" TagName="Navbar" %>
 
@@ -6,7 +6,7 @@
 
 <html lang="en">
 <head runat="server">
-    <meta charset="utf-8" />
+   <meta charset="utf-8" />
     <meta name="viewport"  content="width=device-width, initial-scale=1" />
     <title></title>
     <!--CSS Section-->
@@ -20,9 +20,9 @@
 <body>
     
     <form id="form1" runat="server">
-       <bs29:Navbar  runat="server"/>
+        <bs29:Navbar runat="server" />
     <div>
-        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
     </div>

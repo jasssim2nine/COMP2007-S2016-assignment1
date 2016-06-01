@@ -5,17 +5,13 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace COMP2007_S2016_assignment1
+namespace COMP2007_S2016_assignment1.User_Contol
 {
-    public partial class FrontEnd : System.Web.UI.MasterPage
+    public partial class Navbar : System.Web.UI.UserControl
     {
-        
         protected void Page_Load(object sender, EventArgs e)
         {
-            
-           
-        }
-        
-       
+
         }
     }
+}

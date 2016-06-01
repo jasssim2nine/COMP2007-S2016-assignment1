@@ -10,7 +10,7 @@
 namespace COMP2007_S2016_assignment1 {
     
     
-    public partial class FrontEnd {
+    public partial class Contact {
         
         /// <summary>
         /// head control.
@@ -31,12 +31,12 @@ namespace COMP2007_S2016_assignment1 {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// MainContent control.
+        /// ContentPlaceHolder1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContent;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
     }
 }

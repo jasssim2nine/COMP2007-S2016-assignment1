@@ -7,15 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace COMP2007_S2016_assignment1
 {
-    public partial class FrontEnd : System.Web.UI.MasterPage
+    public partial class Contact : System.Web.UI.MasterPage
     {
-        
         protected void Page_Load(object sender, EventArgs e)
         {
-            
-           
-        }
-        
-       
+
         }
     }
+}

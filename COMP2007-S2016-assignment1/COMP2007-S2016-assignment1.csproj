@@ -66,9 +66,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Contact_Us.aspx" />
     <Content Include="packages.config" />
     <Content Include="FrontEnd.Master" />
     <Content Include="Scripts\jquery-2.2.3.min.map" />
+    <Content Include="Contact.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -109,6 +111,7 @@
     <Content Include="Scripts\jquery-2.2.3.js" />
     <Content Include="Scripts\jquery-2.2.3.min.js" />
     <Content Include="Services.aspx" />
+    <Content Include="User_Contol\Navbar.ascx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -118,6 +121,20 @@
     </Compile>
     <Compile Include="About.aspx.designer.cs">
       <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact_Us.aspx.cs">
+      <DependentUpon>Contact_Us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact_Us.aspx.designer.cs">
+      <DependentUpon>Contact_Us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.Master.cs">
+      <DependentUpon>Contact.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.Master.designer.cs">
+      <DependentUpon>Contact.Master</DependentUpon>
     </Compile>
     <Compile Include="FrontEnd.Master.cs">
       <DependentUpon>FrontEnd.Master</DependentUpon>
@@ -147,6 +164,13 @@
     </Compile>
     <Compile Include="Services.aspx.designer.cs">
       <DependentUpon>Services.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User_Contol\Navbar.ascx.cs">
+      <DependentUpon>Navbar.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User_Contol\Navbar.ascx.designer.cs">
+      <DependentUpon>Navbar.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
